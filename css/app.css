@@ -6,9 +6,18 @@
 
 body {
   background-image: url(../assets/94523.jpg)
-
 }
 
+
+#container {
+		margin: 7S0px;
+		width: 220px;
+		height: 130px;
+		background: #58eb7a;
+		overflow: hidden;
+        text-align: center;
+        display: grid;
+	}
 a.button {
   background: #FFF000;
   color: white;
@@ -21,16 +30,6 @@ a.button {
   -webkit-animation-iteration-count: infinite;
   margin-top: 20px;
 }
-#container {
-		margin: 7S0px;
-		width: 220px;
-		height: 130px;
-		background: #58eb7a;
-		overflow: hidden;
-        text-align: center;
-        display: grid;
-	}
-
 	#text-contain {
 		position: relative;
 		-webkit-animation: textslide 6s infinite;
