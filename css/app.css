@@ -2,10 +2,16 @@
     color: #20fc96;
     font-size: 54px;
     text-align: center;
+    font-family: 'Cormorant Upright', serif;
 }
 
 body {
-  background-image: url(../assets/94523.jpg)
+    background-image: url(../assets/94523.jpg)
+}
+.content{
+    font-family: 'El Messiri', sans-serif;
+    font-size: 23px;
+    color: #0b2900
 }
 
 
