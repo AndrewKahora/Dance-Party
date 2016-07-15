@@ -1,24 +1,26 @@
 .header1{
-    color: #20fc96;
-    font-size: 54px;
+    color: #000000;
+    font-size: 65px;
     text-align: center;
     font-family: 'Cormorant Upright', serif;
 }
 
 body {
-    background-image: url(../assets/94523.jpg)
+    background-image: url(../assets/94523.jpg);
+    height: 300px;
+
 }
 .content{
     font-family: 'El Messiri', sans-serif;
     font-size: 23px;
-    color: #0b2900
+    color: #85ef5f
 }
 
 
 #container {
 		margin: 7S0px;
 		width: 220px;
-		height: 130px;
+		height: 90px;
 		background: #58eb7a;
 		overflow: hidden;
         text-align: center;
@@ -27,14 +29,14 @@ body {
 a.button {
   background: #FFF000;
   color: white;
-  padding: 20px;
+  padding: 5px;
   text-decoration: none;
   display: inline-block;
-  font-size: 50px;
+  font-size: 30px;
   border-radius: 10px;
   -webkit-animation-duration: 3.5s;
   -webkit-animation-iteration-count: infinite;
-  margin-top: 20px;
+  margin-top: 3px;
 }
 	#text-contain {
 		position: relative;
