@@ -1,48 +1,70 @@
-.sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0;
-    left: 0;
-    background-color: #111; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+.header1{
+    color: #20fc96;
+    font-size: 54px;
+    text-align: center;
 }
 
-/* The navigation menu links */
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s
+body {
+  background-image: url(../assets/94523.jpg)
+
 }
 
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
+a.button {
+  background: #FFF000;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+  border-radius: 10px;
+  -webkit-animation-duration: 3.5s;
+  -webkit-animation-iteration-count: infinite;
+  margin-top: 20px;
 }
+#container {
+		margin: 7S0px;
+		width: 220px;
+		height: 130px;
+		background: #58eb7a;
+		overflow: hidden;
+        text-align: center;
+        display: grid;
+	}
 
-/* Position and style the close button (top right corner) */
-.closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px !important;
-    margin-left: 50px;
-}
+	#text-contain {
+		position: relative;
+		-webkit-animation: textslide 6s infinite;
+		animation: textslide 6s infinite;
+	}
+	h1 {
+		margin: 0;
+		padding: 0;
+    height: 200px; /*Height should be equal to it's container*/
+    width: 100%;
+		font-size: 30px;
+		text-align: center;
+		}
 
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#main {
-    transition: margin-left .5s;
-    padding: 20px;
-}
+	#text3 {font-size: 50px;}
 
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-}
+	@-webkit-keyframes textslide {
+		0% {top: 15%;}
+		25% {top: 15%;}
+		30% {top: -85%;}
+		55% {top: -85%;}
+		60% {top: -190%;}
+		85% {top: -190%;}
+		100% {top: 15%;}
+		}
+
+
+	@keyframes textslide {
+		0% {top: 15%;}
+		25% {top: 15%;}
+		30% {top: -85%;}
+		55% {top: -85%;}
+		60% {top: -190%;}
+		85% {top: -190%;}
+		100% {top: 15%;}
+		}
+
